@@ -1,0 +1,100 @@
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .title-middle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .nav-x{
+        min-height: 56px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .hero-contain{
+        height: 400px;
+    }
+
+    .home-display-text-ftype{
+        text-align: start;
+    }
+    
+    .hero-text{
+        bottom: 40px;
+        font-size: 38px;
+    }
+
+    .big-text{
+        font-size: 40px;
+    }
+    
+    .home-display-text{
+        font-size: 14px;
+    }
+
+    .smaller-screen-img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .text-order{
+        order:1;
+    }
+    
+    .pic-order{
+        order:2;
+    }
+    
+    .foot-logo{
+        font-size: 20px;
+    }
+    
+    .foot-about{
+        font-size: 18px;
+    }
+    
+    .footer-text{
+        font-size: 13px;
+    }
+
+    .copyright{
+        font-size: 11px;
+    }
+
+    /* Vehicles Page */
+
+    table th.category, table th.spec{
+        font-size: 14px;
+    }
+
+    /* Dealerships Page */
+
+    .dealership-text-banner{
+        font-size: 20px;
+    }
+
+    .dealership-titles{
+        font-size: 16px;
+    }
+
+    .dealership-details{
+        font-size: 14px;
+    }
+
+    .dealership-address{
+        min-height: 150px;
+    }
+
+    /* Gallery Page */
+
+    .gallery-pic{
+        height: 200px;
+    }
+}

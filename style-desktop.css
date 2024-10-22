@@ -1,0 +1,203 @@
+@import url('https://fonts.cdnfonts.com/css/jaguar');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+.nav-height{
+    min-height: 60px;
+}
+
+.border-dgreen{
+    border-bottom: #1D3128 1px solid;
+}
+
+.logo{
+    color: #1D3128;
+    font-family: Jaguar;
+    font-size: 22px;
+}
+
+.logo:hover{
+    color: #416a57;
+}
+
+.nav-text{
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+    color: #1D3128;
+}
+
+.nav-text:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.section-hero{
+    background-image: url("https://www.thisistheplan.com/wp-content/uploads/2018/09/epace-web-60.jpg");
+    background-size: 100%;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hero-contain{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 600px;
+}
+
+.hero-text{
+    position: relative;
+    bottom: 60px;
+    left: 0;
+    font-family: jaguar;
+    font-size: 42px;
+    color: white;
+}
+
+.big-text{
+    color: #1D3128;
+    font-size: 42px;
+    font-family: jaguar;
+}
+
+.home-display-text-ftype{
+    text-align: end;
+}
+
+.home-display-text{
+    font-family: Jura;
+    text-align: justify;
+    color: #1D3128;
+}
+
+.home-display-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-order{
+    order:1;
+}
+
+.pic-order{
+    order:2;
+}
+
+footer{
+    background-color: #1D3128;
+}
+
+.dealership-text-banner, .foot-logo, .foot-about, .footer-text, .link-formatter, .copyright{
+    color:white
+}
+
+.foot-logo{
+    font-family: Jaguar;
+    font-size: 22px;
+}
+
+.foot-about{
+    font-family: jura;
+    font-size: 20px;
+}
+
+.footer-text{
+    font-family: jura;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.link-formatter{
+    text-decoration: none;
+}
+
+.link-formatter:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #202020;
+    font-family: jura;
+    font-size: 12px;
+}
+
+/* Vehicles Page */
+
+.vehicles-pic{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+table th.category, table th.spec{
+    vertical-align: middle;
+    font-family: Jura;
+    font-size: 16px;
+    color: #1D3128;
+}
+
+.category{
+    text-align: start;
+}
+
+.spec{
+    text-align: end;
+}
+
+.i-pace-title{
+    text-align: end;
+}
+
+/* Dealerships Page */
+
+.dealership-text-banner{
+    font-family: Jaguar;
+    font-size: 22px;
+}
+
+.offwhite{
+    background-color: rgb(247, 247, 247);
+}
+
+.dealership-banner{
+   min-height: 120px;
+   background-color: black;
+}
+
+.dealership-titles{
+    color: #1D3128;
+    font-size: 18px;
+    font-family: Jaguar;
+}
+
+.dealership-details{
+    color: #1D3128;
+    font-size: 14px;
+    font-family: jura;
+}
+
+.dealership-place{
+    min-height: 100px;
+}
+
+.dealership-address{
+    min-height: 100px;
+}
+
+.dealership-social{
+    min-height: 100px;
+}
+
+/* Gallery Page */
+
+.gallery-pic{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
